@@ -3,10 +3,29 @@
 		<head>
 			<meta charset = "utf-8">
 			<title> Digital Clock + Visual + Media </title>
+			<link rel = "stylesheet" href = ".fonts/MPLUSRounded1c-Regular.ttf">
+			<link rel = "stylesheet" href = "style.css">
 		</head>
 		<body>
-			<div id = "digital-clock"> </div>
-			<script src = ./scripts/date_time.js> </script>
-			<link rel = "stylesheet" href = ./styles/date_time.css>
+			<canvas id='canv'></canvas>
+			<div class = "container">
+				<div class = "date-time">
+					<div class = "time" id = "time"></div>
+					<div class = "date" id = "date"></div>
+				</div>
+				<div class="media-info">
+					<div class = "music">
+					  <div class = "title" id = "title"></div>
+					  <div class = "artist" id = "artist"></div>
+					</div>
+				</div>
+					<div class="visualizer" id="visualizer-container"></div>
+				</div>
+			</div>
+			
+			<script src = "./js/date_time.js"> </script>
+			<script src = "./js/media_info.js"> </script>
+			<script src = "./js/visualizer.js"> </script>
+			<script src = "./js/matrix_rain.js"> </script>
 		</body>
 	</html>
