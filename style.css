@@ -63,24 +63,24 @@ body {
 .time{
 	background-color: rgba(0, 0, 0, 0.85);
     font-family: clock_bold;
-	color: #39ff14;
+	color: #32eaff;
 	letter-spacing: 1vh;
     font-size: 10vh;
 	margin: 2vh;
 	padding: 2vh;
 	border-style: solid;
-	border-color: #39ff14;
+	border-color: #32eaff;
 }
 
 .date{
 	background-color: rgba(0, 0, 0, 0.85);
     font-family: clock_regular;
-	color: #39ff14;
+	color: #32eaff;
     font-size: 6vh;
 	margin: 2vh;
 	padding: 2vh;
 	border-style: solid;
-	border-color: #39ff14;
+	border-color: #32eaff;
 }
 
 .media-info{
@@ -103,7 +103,7 @@ body {
 .title{
 	background-color: rgba(0, 0, 0, 0.85);
     font-family: media_font;
-	color: #39ff14;
+	color: #32eaff;
     font-size: 3vh;
 	margin: 2vh;
 	width: auto;
@@ -112,14 +112,14 @@ body {
 	justify-content: center;
 	padding: 2vh;
 	border-style: solid;
-	border-color: #39ff14;
+	border-color: #32eaff;
 }
 
 
 .artist{
 	background-color: rgba(0, 0, 0, 0.85);
     font-family: media_font;
-	color: #39ff14;
+	color: #32eaff;
     font-size: 2vh;
 	margin: 2vh;
 	width: auto;
@@ -128,7 +128,7 @@ body {
 	justify-content: center;
 	padding: 2vh;
 	border-style: solid;
-	border-color: #39ff14;
+	border-color: #32eaff;
 }
 
 
@@ -145,12 +145,12 @@ body {
 	justify-content: center;
 	padding: 5px;
 	border-style: solid;
-	border-color: #39ff14;
+	border-color: #32eaff;
 }
 
 .bar {
 	flex: 0 0 10px;
-	background-color: #39ff14;
+	background-color: #32eaff;
 	max-height: 20vh;
 	margin-right: 6px;
 	transition: height 0.033s ease-in-out; /* Add transition for height */
